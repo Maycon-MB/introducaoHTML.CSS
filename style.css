@@ -1,0 +1,93 @@
+/* Define o estilo para o elemento <body> do HTML.
+   background: Define a cor de fundo como cinza claro (#f7f7f7).
+   font-family: Define a família de fontes como Verdana.
+   width: Define a largura máxima como 900 pixels.
+   margin: Centraliza o conteúdo horizontalmente. */
+   body {
+    background: #f7f7f7;
+    font-family: Verdana;
+    width: 900px;
+    margin: auto;
+}
+
+/* border: Adiciona uma borda sólida com 1 pixel de espessura e cor cinza escuro (#505050).
+   border-radius: Aplica um raio de borda de 50%, criando uma aparência circular. */
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+/* #title: refere-se a um elemento com o ID "title".
+   .subtitle: refere-se a elementos com a classe "subtitle".
+   .post_title: refere-se a elementos com a classe "post_title". */
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+/* #title: Define o tamanho da fonte como 40 pixels e transforma para maiúsculas.
+   text-transform: Converte o texto para maiúsculas. */
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* a: Estiliza links.
+   text-decoration: Adiciona uma linha riscada.
+   color: Define a cor do texto como cinza escuro (#505050). */
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+/* font-size: Define o tamanho da fonte como 16 pixels.
+   font-style: Define o estilo da fonte como itálico.
+   margin: Define margens, removendo margens padrão e adicionando uma margem inferior de 15 pixels. */
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* background: Define a cor de fundo como branco (#fff).
+   padding: Adiciona preenchimento interno de 15 pixels (espaço entre o conteúdo e a borda).
+   border: Adiciona uma borda sólida com 3 pixels de espessura e cor cinza escuro (#505050).
+   margin: Adiciona margem externa de 15 pixels (espaço entre este elemento e outros elementos circundantes). */
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+}
+
+/* margin: Define margens, removendo margens padrão.
+   border-radius: Adiciona um leve arredondamento nas bordas com um raio de 5 pixels.
+   text-transform: Converte a primeira letra de cada palavra para maiúsculas.
+   text-align: Justifica o texto. */
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+/* margin-bottom: Adiciona margem inferior de 15 pixels.
+   width: Define a largura como 100%. */
+.post_image {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* list-style-type: Remove a estilização padrão da lista.
+   padding-left: Adiciona preenchimento à esquerda na lista. */
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+/* text-decoration: Remove a decoração de texto (sublinhado).
+   a: Estiliza links dentro de <li> elementos. */
+.contacts_list li a {
+    text-decoration: none;
+}
